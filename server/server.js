@@ -18,7 +18,7 @@ app.listen(5038, () => {
     //     database = client.db(DATABASENAME);
     //     console.log("Mongo DB Connection Sucessfull");
     // })
-    console.log("Server started at port 8080");
+    console.log("Server started at port 5038");
 })
 
 app.get('/api/dbname/getData', (req, res) => {
